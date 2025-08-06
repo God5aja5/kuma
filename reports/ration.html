@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ration Card Report | Ghost Developers</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+<div class="container py-4">
+  <h2 class="text-center mb-4">🍚 Ration Card Report</h2>
+  <div class="card bg-secondary text-white">
+    <div class="card-body">
+      <h5 class="card-title">Card Details</h5>
+      <p class="mb-1"><strong>RC No:</strong> {{RATION_NO}}</p>
+      <p class="mb-1"><strong>State:</strong> {{STATE}}</p>
+      <p class="mb-1"><strong>District:</strong> {{DISTRICT}}</p>
+      <p class="mb-1"><strong>Scheme:</strong> {{SCHEME}}</p>
+
+      <h6 class="mt-3">Members</h6>
+      <ul class="list-unstyled">{{MEMBERS}}</ul>
+
+      <hr>
+      <h6>Organized Address</h6>
+      <p class="mb-1"><strong>City:</strong> {{CITY}}</p>
+      <p class="mb-1"><strong>State:</strong> {{STATE}}</p>
+      <p class="mb-1"><strong>Pin:</strong> {{PIN}}</p>
+      <p class="mb-1"><strong>Full:</strong> {{ADDRESS}}</p>
+    </div>
+  </div>
+  <footer class="text-center mt-4">— By Ghost Developers</footer>
+</div>
+</body>
+</html>
