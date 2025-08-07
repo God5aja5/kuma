@@ -1,4 +1,4 @@
 pyTelegramBotAPI
 requests
 uuid
-flask
+flask==3.0.3
